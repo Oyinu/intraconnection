@@ -1,0 +1,270 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: UniNeue-Light;
+    color: white;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+#Home{
+    background-image: url(ice.jpg);
+    position: relative;
+    height: 80vh; 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+.overlay{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navlists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+}
+.navlists li a{
+text-decoration: none;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+margin-left:3rem ;
+margin-top: 1rem;
+padding: 30px 15px;
+font-family: UniNeue-Light;
+font-weight: 400;
+font-size: 1rem;
+transition: .3s ease-in-out;
+}
+.navlists li a:hover{
+    color: #F76D21;
+    transform: translateY(-5px);
+}
+.icons{
+    margin-left: 8rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#profile{
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    color: white;
+    transition: .3s ease-in-out;
+}
+#profile:hover{
+    color: #F76D21;
+    transform: translateY(-5px);
+}
+.logo{
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: UniNeue-Light;
+    color: white;
+}
+#cart{
+    font-size: 2rem;
+    color: white;
+    transition: .3s ease-in-out;
+}
+#cart:hover{
+    color: #F76D21;
+    transform: translateY(-5px);
+}
+#About{
+    background-color: #F76D21;
+    opacity: 0.7;
+}
+.about-content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-heading{
+    padding: 2rem 1rem;
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    font-family: UniNeue-Light;
+    color: white;
+    font-size: 2rem;
+}
+.image{
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+.about-text{
+    margin: 0 3rem;
+}
+.about-together1, .about-together2, .about-together3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.6rem;
+}
+.text2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    line-height: 1rem;
+}
+.text3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+#Services{
+    background-color: #F76D21;
+    opacity: 0.7;
+}
+.submit{
+    height: 3.5rem;
+    width: 40%;
+    border-radius: 1rem;
+    border: 1px solid #F76D21;
+}
+.subscribe{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+.subscribe:hover{
+    color: black;
+    transform: translateY(-5px);
+}
+.form{
+    margin: 4rem auto;
+    margin-left: 33%;
+}
+input{
+    color: black;
+    margin: 1rem 2rem;
+}
+#footer{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 3rem auto;
+}
+.navlists2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlists2 li{
+    margin: auto 1rem;
+}
+.navlists2 li a{
+    font-size: 1.5rem;
+}
+.copy{
+
+    margin: 5rem 30%;
+}
+@media screen and (max-width: 767px){
+    #Home{
+        background-image: url(ice.jpg);
+        position: relative;
+        height: 50vh; 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+    .logo{
+        text-decoration: none;
+        font-size: 9px;
+        font-family: UniNeue-Light;
+        color: white;
+    }
+    .navlists li a{
+       margin-bottom: 2rem;
+        font-family: UniNeue-Light;
+        font-size: 7px;
+        transition: .3s ease-in-out;
+        }
+        .about-heading{
+            padding: 2rem 1rem;
+            display:flexbox;
+            justify-content: center;
+            align-items: center;
+            font-family: UniNeue-Light;
+            color: white;
+            font-size: .7rem;
+        }
+        .text1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+        }
+        .text2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: .6rem;
+            line-height: 1rem;
+        }
+        .text3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: .6rem;
+        }
+        #profile{
+            font-size: .4rem;
+            padding: 1rem 1rem;
+            color: white;
+            transition: .3s ease-in-out;
+        }
+        .about-text p{
+            font-size: .8rem;
+        }
+}
